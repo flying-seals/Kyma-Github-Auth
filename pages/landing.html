@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        background-color: #24292e;
+        height: 100%;
+      }
+      #container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h1,
+      h2 {
+        font-family: Poppins, sans-serif;
+        color: white;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Github Connector for Kyma</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>GITHUB CONNECTOR</h1>
+      <h1 style="text-align: center">Click button below to install GitHub Connector to your workspace!</h1>
+      <div class="github-btn">
+        <a
+          href="https://github.com/login/oauth/authorize?client_id=a8b380ab86d7cf35e461&scope=repo,admin:org_hook&redirect_uri=https://auth-github-connector.herokuapp.com/auth/redirect"
+          ><img
+            alt="Add to Github"
+            height="50"
+            width="130"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp5H3_mSLEgAraVZbOzC672yfhV__5oOLdHhAYfRxj2YE94nQOGA"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
